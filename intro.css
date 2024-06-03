@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background-image: url('https://wallpapers.com/images/hd/amazon-e-commerce-company-csw7ypxppsqd7yyr.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    position: relative;
+}
+
+.sign{
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+    align-items: center;
+}
+.sign{
+   margin-top: 170px;
+    font-family: monospace;
+    background-color: transparent;
+    border: 1px solid white;
+    box-shadow: 10px, 10px,10px  rgba(255, 255, 0, 1);
+    height: 400px;
+    width: 350px;
+    border-radius: 15px;
+    background-color:transparent;
+    transition: all;
+    transition: 1s;
+    transition-timing-function: linear;
+}
+.sign:hover{
+    backdrop-filter: blur(6px);
+   /* transform: scale(1.2,1.2);*/
+}
+.mobile{
+    width:300px;
+    height:25px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: aliceblue;
+}
+.usr{
+    margin-top: 20px;
+}
+.button{
+    margin-top: 20px;
+}
+.btn{
+    width:300px;
+    height:25px;
+    background-color: rgb(243, 174, 0);
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: burlywood;
+    cursor: pointer;
+}
+.para{
+    text-align: center;
+    margin-top: 20px;
+}
+.a{
+    text-decoration: none;
+}
+.a:hover{
+    text-decoration: underline;
+    color: rgba(220, 70, 9,0.8);
+}
+.heading{
+    text-align: left;
+    margin-right: 80px;
+}
+.help{
+    margin-top: 25px;
+    font-size: 0.9rem;
+    margin-right:220px ;
+}
+.work{
+    margin-right: 133px;
+    margin-top: 25px;
+}
+.font{
+    color: beige;
+}
+.footer{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footbtn{
+    margin-top: 20px;
+}
+.amzacc{
+    color: antiquewhite;
+    width: 300px;
+    height:25px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid white;
+}
+.amzacc:hover{
+    backdrop-filter: blur(6px);
+}
+.continue{
+    text-decoration: none;
+}
+.cracc{
+    text-decoration: none;
+    color: antiquewhite;
+}
+/*back*/
+/*
+.inpclass,.inppass{
+    height: 25px;
+    width:300px;
+    border-radius: 5px;
+}
+.checkbox{
+    color: antiquewhite;
+}
+.log{
+    height: 400px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:1px solid white;
+}
+.front,.back{
+    position: absolute;
+}
+.form:hover{
+    cursor:pointer;
+    transform: rotateY(180deg);
+}*/
